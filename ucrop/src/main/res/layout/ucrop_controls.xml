@@ -10,6 +10,7 @@
 
         <LinearLayout
             android:id="@+id/layout_aspect_ratio"
+            android:visibility="gone"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:gravity="center"
@@ -53,6 +54,7 @@
         </FrameLayout>
 
         <FrameLayout
+            android:visibility="gone"
             android:id="@+id/state_aspect_ratio"
             style="@style/ucrop_WrapperIconState">
 
